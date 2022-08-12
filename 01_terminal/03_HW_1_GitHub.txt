@@ -1,0 +1,242 @@
+GIT HOMEWORK 1
+Среда выполнения: GitHub; GitBash
+
+JSON
+ 4. Создать внешний репозиторий c названием JSON. === https://github.com/timurkrepostin/JSON
+ 5. Клонировать репозиторий JSON на локальный компьютер. === git clone https://github.com/timurkrepostin/JSON.git
+ 6. Внутри локального JSON создать файл “new.json”. === touch new.json 
+ 7. Добавить файл под гит. === git add new.json
+ 8. Закоммитить файл. === git commit -m "new file"
+ 9. Отправить файл на внешний GitHub репозиторий. === git push
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON. === 
+vim new.json 
+i
+{
+        "name":"Timur",
+        "surname":"Krepostin",
+        "age":23,
+        "number of pets":2,
+        "future salary":100500
+}
+Esc
+:wq
+
+ 11. Отправить изменения на внешний репозиторий. === git add new.xml; git commit -m "new info about me"; git push
+ 12. Создать файл preferences.json. === touch preferences.json
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON. === 
+vim preferences.json
+i
+{
+        "fav. movie":"casino 1995",
+        "fav. serial":"sopranos",
+        "fav. food":"national kitchen of SNG",
+        "fav. type of year":"springtime",
+        "fav. other country":"Italy"
+}
+Esc
+:wq
+
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON. === 
+touch skills.json
+vim skills.json
+i
+{
+        "theory":"base theory of QA",
+        "web theory": ["client-server architecture, structure of http request-response, codes of http-resonse, structure of xml and json"],
+        "web-testing practice": ["testing api in postman win js-autotest", "Removing and reading logs from an external server", "web-browser devtools", "Sniffing http web traffic with Charles and Fiddler", "load testing in JMETER"],
+        "mobile testing": ["features of ios/android", "assembly android and ios application", "abd", "proxy and vpn", "sniffing mobile web-traffic"],
+        "git": ["terminal linux", "gitbash", "github"],
+        "database":["SQL basic", "database postgres", "database redis"]
+}
+Esc
+:wq
+
+ 15. Отправить сразу 2 файла на внешний репозиторий. === 
+git add preferences.json skills.json
+git commit -am "new files"
+git push 
+ 16. На веб интерфейсе создать файл bug_report.json. === https://github.com/timurkrepostin/JSON/new/main
+JSON/bug_report.json
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. === Commit changes
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON. === 
+https://github.com/timurkrepostin/JSON/blob/main/bug_report.json
+edit this file
+{
+
+"summary" : "отсутствует валидация полей имя и тема в форме контакты",
+
+"project" : "вкусно-умело.ру",
+
+"component" : "обратная связь",
+
+"version" : "3.3.2",
+
+"severity" : "major",
+
+"priority" : "medium",
+
+"status" : "open",
+
+"autour" : "Timur Krepostin",
+
+"assigned To" : "Ivan Ivanov",
+
+"discription" : "Ввести невалидные данные в форму у поля имя и тема в форме контакты, обратить внимание на валидацию полей формы"
+
+}
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе. === Commit changes
+ 20. Синхронизировать внешний и локальный репозиторий JSON. === 
+git pull
+ответ:
+bug_report.json | 12 ++++++++++++
+1 file changed, 12 insertions(+)
+
+
+
+XML
+ 21. Создать внешний репозиторий c названием XML. === 
+https://github.com/timurkrepostin/XML.git
+ 22. Клонировать репозиторий XML на локальный компьютер. === 
+git clone https://github.com/timurkrepostin/XML.git
+ 23. Внутри локального XML создать файл “new.xml”. === cd XML; touch new.xml
+ 24. Добавить файл под гит. === git add new.xml
+ 25. Закоммитить файл. === git commit -m "new file"
+ 26. Отправить файл на внешний GitHub репозиторий. === git push
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML. === 
+vim new.xml
+i
+<name>Timur</name>
+<surname>Krepostin</surname>
+<age>23</age>
+<number of pets>2</number of pets>
+<future salary>100500</future salary>
+Esc
+:wq
+
+ 28. Отправить изменения на внешний репозиторий. === git add new.xml; git commit -m "new info about me"; git push
+ 29. Создать файл preferences.xml. === touch preferences.xml 
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML. === 
+vim preferences.xml
+<fav. movie>casino 1995</fav. movie>
+<fav. serial>sopranos</fav. serial>
+<fav. food>national kitchen of SNG</fav. food>
+<fav. type of year>springtime</fav. type of year>
+<fav. other country>Italy</fav. other country>
+Esc
+:wq
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML. === 
+touch skills.xml
+vim skills.xml
+<practice>Removing and reading logs from an external server</practice>
+<practice>web-browser devtools</practice>
+<practice>Sniffing http web traffic with Charles and Fiddler</practice>
+<practice>load testing in JMETER</practice>
+</web-testing practice>
+<mobile testing practice>
+<practice>features of ios/android</practice>
+<practice>assembly android and ios</practice>
+<practice>application</practice>
+<practice>abd</practice>
+<practice>proxy and vpn</practice>
+<practice>sniffing mobile web-traffic</practice>
+</mobile testing practice>
+<git>
+<practice>terminal linux</practice>
+<practice>gitbash</practice>
+<practice>github</practice>
+</git>
+<database>
+<practice>SQL basic</practice>
+<practice>database postgres</practice>
+<practice>database redis</practice>
+</database>
+Esc
+:wq
+ 32. Сделать коммит в одну строку. === 
+git add preferences.xml skills.xml
+git commit -am "new files"
+ 33. Отправить сразу 2 файла на внешний репозиторий. === git push 
+ 34. На веб интерфейсе создать файл bug_report.xml. === https://github.com/timurkrepostin/XML/blob/main/bug_report.xml 
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе. === Commit changes
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML. === 
+Edit this file
+<summary>отсутствует валидация полей имя и тема в форме контакты</summary>
+<project>вкусно-умело.ру</project>
+<component>обратная связь</component>
+<version>3.3.2</version>
+<severity>major</severity>
+<priority>medium</priority>
+<status>open</status>
+<autour>Timur Krepostin</autour>
+<assigned>ToIvan Ivanov</assigned>
+<discription>Ввести невалидные данные в форму у поля имя и тема в форме контакты, обратить внимание на валидацию полей формы</discription>
+
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе. Commit changes
+ 38. Синхронизировать внешний и локальный репозиторий XML. === 
+
+
+TXT
+ 1. Создать внешний репозиторий c названием TXT. === https://github.com/timurkrepostin/TXT
+ 2. Клонировать репозиторий TXT на локальный компьютер. === git clone https://github.com/timurkrepostin/TXT.git
+ 3. Внутри локального TXT создать файл “new.txt”. === cd TXT; touch new.txt
+ 4. Добавить файл под гит. === git add new.txt
+ 5. Закоммитить файл. === git commit -m "new file"
+ 6. Отправить файл на внешний GitHub репозиторий. === git push
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT. === 
+vim new.txt
+name: Timur;
+surname: Krepostin;
+age: 23;
+number of pets: 2;
+future salary: 100500
+Esc
+:wq
+
+ 8. Отправить изменения на внешний репозиторий. === git add new.txt;
+ 9. Создать файл preferences.txt. === touch preferences.txt
+ 10. В файл preferences.txt добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT. === 
+vim preferences.txt
+fav. movie: casino 1995;
+fav. serial: sopranos;
+fav. food": national kitchen of SNG;
+fav. type of year: springtime;
+fav. other country: Italy
+Esc
+:wq
+
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT. === 
+touch skills.txt
+vim skills.txt
+theory: base theory of QA;
+web theory: client-server architecture, structure of http request-response, codes of http-resonse, structure of xml and json;
+web-testing practice: testing api in postman win js-autotest, Removing and reading logs from an external server, web-browser devtools, Sniffing http web traffic with Charles and Fiddler, load testing in JMETER;
+mobile testing: features of ios/android, assembly android and ios application, abd, proxy and vpn, sniffing mobile web-traffic;
+git: terminal linux, gitbash, github;
+database: SQL basic, database postgres, database redis
+Esc
+:wq
+ 12. Сделать коммит в одну строку. === git add preferences.txt skills.txt; git commit -am "new files"
+ 13. Отправить сразу 2 файла на внешний репозиторий. === git push
+ 14. На веб интерфейсе создать файл bug_report.txt. === https://github.com/timurkrepostin/TXT/blob/main/bug_report.txt
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе. === Commit changes
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT. === 
+Edit this file
+summary: отсутствует валидация полей имя и тема в форме контакты
+project: вкусно-умело.ру
+component: обратная связь
+version: 3.3.2
+severity: major
+priority: medium
+status: open
+autour: Timur Krepostin
+assigned To: Ivan Ivanov
+discription: Ввести невалидные данные в форму у поля имя и тема в форме контакты, обратить внимание на валидацию полей формы
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. === Commit changes
+ 18. Синхронизировать внешний и локальный репозиторий TXT. === 
+git pull
+ответ: 
+bug_report.txt | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+ create mode 100644 bug_report.txt
