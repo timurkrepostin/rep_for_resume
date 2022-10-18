@@ -13,12 +13,10 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"",
-							"// Логин и получение и отправка токена в окружение",
-							"let resp = pm.response.json();",
-							"let token = resp.token;",
-							"console.log(\"TOKEN = \" + token);",
-							"pm.environment.set(\"token\", token);",
+							"let resp = pm.response.json();\r",
+							"let token = resp.token;\r",
+							"console.log(\"TOKEN = \" + token);\r",
+							"pm.environment.set(\"token\", token);\r",
 							"//Приходящий токен необходимо передать во все остальные запросы"
 						],
 						"type": "text/javascript"
@@ -33,12 +31,12 @@
 					"formdata": [
 						{
 							"key": "login",
-							"value": "timur.krep@gmail.com",
+							"value": "timur@gmail.com",
 							"type": "text"
 						},
 						{
 							"key": "password",
-							"value": "123456",
+							"value": "12345",
 							"type": "text"
 						}
 					]
@@ -360,7 +358,7 @@
 					"formdata": [
 						{
 							"key": "age",
-							"value": "{{age}}",
+							"value": "24",
 							"type": "text"
 						},
 						{
@@ -370,7 +368,7 @@
 						},
 						{
 							"key": "name",
-							"value": "{{name}}",
+							"value": "Timur",
 							"type": "text"
 						},
 						{
@@ -508,7 +506,7 @@
 						},
 						{
 							"key": "name",
-							"value": "{{name}}",
+							"value": "Timur",
 							"type": "text"
 						},
 						{
