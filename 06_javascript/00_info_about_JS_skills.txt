@@ -1,6 +1,0 @@
-info
-ifelse
-function
-callback
-switch
-other
