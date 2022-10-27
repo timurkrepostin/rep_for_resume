@@ -12,7 +12,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/get_method?name=Timur&age=24",
+					"raw": "http://162.55.220.72:5006/get_method?name=Timur&age=24",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -20,7 +20,7 @@
 						"220",
 						"72"
 					],
-					"port": "5005",
+					"port": "5006",
 					"path": [
 						"get_method"
 					],
@@ -64,7 +64,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/user_info_3",
+					"raw": "http://162.55.220.72:5006/user_info_3",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -72,7 +72,7 @@
 						"220",
 						"72"
 					],
-					"port": "5005",
+					"port": "5006",
 					"path": [
 						"user_info_3"
 					]
@@ -86,7 +86,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_1?name=Timur&age=24&weight=65",
+					"raw": "http://162.55.220.72:5006/object_info_1?name=Timur&age=24&weight=65",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -94,7 +94,7 @@
 						"220",
 						"72"
 					],
-					"port": "5005",
+					"port": "5006",
 					"path": [
 						"object_info_1"
 					],
@@ -122,7 +122,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_2?name=Timur&age=24&salary=1500",
+					"raw": "http://162.55.220.72:5006/object_info_2?name=Timur&age=24&salary=1500",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -158,7 +158,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_3?name=Timur&age=24&salary=1500",
+					"raw": "http://162.55.220.72:5006/object_info_3?name=Timur&age=24&salary=1500",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -166,7 +166,7 @@
 						"220",
 						"72"
 					],
-					"port": "5005",
+					"port": "5006",
 					"path": [
 						"object_info_3"
 					],
@@ -194,7 +194,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_4?name=Timur&age=24&salary=1500",
+					"raw": "http://162.55.220.72:5006/object_info_4?name=Timur&age=24&salary=1500",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -202,7 +202,7 @@
 						"220",
 						"72"
 					],
-					"port": "5005",
+					"port": "5006",
 					"path": [
 						"object_info_4"
 					],
@@ -250,7 +250,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/user_info_2?name=Timur&age=24&salary=1500",
+					"raw": "http://162.55.220.72:5006/user_info_2?name=Timur&age=24&salary=1500",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -258,7 +258,7 @@
 						"220",
 						"72"
 					],
-					"port": "5005",
+					"port": "5006",
 					"path": [
 						"user_info_2"
 					],
