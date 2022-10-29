@@ -1,3 +1,6 @@
+# Навыки
+create, drop, insert into, select, where, order by, like, aggregate functions,
+join, union
 # SQL
 ### DDL and DML operations
 - `SELECT` - для получения данных из выбранной таблицы
